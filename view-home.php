@@ -26,38 +26,37 @@
 </head>
 
 <body>
-    <!-- Hero -->
-    <div class="container-fluid">
-        <div class="row justify-content-center bg-image">
+    <div class="container-fluid bg-image">
+        <!-- Nav bar -->
+        <?php include "./common-header.php" ?>
+        <!-- Main title -->
+        <div class="row justify-content-center">
             <div class="col-sm-12 col-lg-8">
-                <!--  Nav Bar  -->
-                <?php include "./common-header.php" ?>
-                <!-- Main title -->
-                <div class="row" style="margin:70px 0px;">
-                    <div class="col-sm-12 col-md-6">
-                        <h1 class="display-3 text-light" style="line-height:0.9; font-weight:400">START</h1>
-                        <h1 class="display-3 text-light" style="line-height:0.9">trading</h1>
-                        <h1 class="display-3 text-light" style="line-height:0.9; margin-bottom:35px">Binance</h1>
-                        <a class="btn btn-info text-light bg-main-color btn-lg" href=""
-                            style="padding:5px 40px; margin-bottom:20px">Registrate</a>
-                        <p class="text-light">Sistema automatico de Ganancias</p>
+                <div class="row" style="margin:60px 0px">
+                    <div class="col-sm-12 col-md-6 text-light">
+                        <h1 class="display-3" style="line-height: 0.9;">Start</h1>
+                        <h1 class="display-3" style="line-height: 0.9;">trading</h1>
+                        <h1 class="display-3" style="line-height: 0.9; margin-bottom:20px;">Binance</h1>
+                        <a class="btn " href=""></a>
+                        <!-- <h1 class="animate__animated animate__fadeInUp display-4">Royal Q Robot</h1>
+                <h1 class="animate__animated animate__fadeInUp">Trade <span
+                        style="color:#ffd85d; font-weight:bold">Binance</span></h1>
+                <a href="https://raqsy.com/s/<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_royal_link'];} ?>"
+                    target="_blank" type="button" class="btn btn-lg btn-violet font-body"
+                    style="margin-top:25px;">Registrate
+                    Ahora</a> -->
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <div class="d-flex justify-content-center" style="margin-bottom:20px">
-                            <img src="./images/bitcoin.png" alt="Imagen de bitcoin" style="width:100px">
-                            <img src="./images/etherium.png" alt="Imagen de etherium" style="width:100px">
-                            <img src="./images/xrp.png" alt="Imagen de xrp" style="width:100px">
+                        <div class="d-flex">
+                            <img src="./images/bitcoin.png" alt="image of bitcoin" style="width:100px">
+                            <img src="./images/etherium.png" alt="image of etherium" style="width:100px">
+                            <img src="./images/xrp.png" alt="image of xrp" style="width:100px">
                         </div>
-                        <h2 class="text-light">Titulo Secundario Aleatorio</h2>
-                        <hr class="bg-light" style="width:20%; height:2px;">
-                        <p class="text-light text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Aliquam aut perferendis voluptates saepe quaerat, laborum odit tenetur expedita nesciunt
-                            assumenda!</p>
                     </div>
-
                 </div>
             </div>
         </div>
+
     </div>
     <!--  Footer  -->
     <?php include "./common-footer.php" ?>

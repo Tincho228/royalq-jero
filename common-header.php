@@ -14,7 +14,6 @@
           <li class="nav-item">
             <a class="nav-link text-light" aria-current="page" href="./index.php">Home</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link text-light" href="./index.php#howToStart"><i class="far fa-question-circle"></i> Como empiezo</a>
           </li>
@@ -30,15 +29,6 @@
             <!-- Button trigger modal -->
             <a class="nav-link text-light" data-toggle="modal" data-target="#contact-modal"><i
                 class="fas fa-envelope-open-text"></i> Contacto</a>
-          </li>
-
-          <!--  Admin link  -->
-          <li class="nav-item">
-
-
-
-
-            
           </li>
         </ul>
       </div>
