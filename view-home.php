@@ -34,24 +34,23 @@
             <div class="col-sm-12 col-lg-8">
                 <div class="row" style="margin:60px 0px">
                     <div class="col-sm-12 col-md-6 text-light">
-                        <h1 class="display-3" style="line-height: 0.9;">Start</h1>
-                        <h1 class="display-3" style="line-height: 0.9;">trading</h1>
-                        <h1 class="display-3" style="line-height: 0.9; margin-bottom:20px;">Binance</h1>
-                        <a class="btn " href=""></a>
-                        <!-- <h1 class="animate__animated animate__fadeInUp display-4">Royal Q Robot</h1>
-                <h1 class="animate__animated animate__fadeInUp">Trade <span
-                        style="color:#ffd85d; font-weight:bold">Binance</span></h1>
-                <a href="https://raqsy.com/s/<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_royal_link'];} ?>"
-                    target="_blank" type="button" class="btn btn-lg btn-violet font-body"
-                    style="margin-top:25px;">Registrate
-                    Ahora</a> -->
+                        <h1 class="display-3 animate__animated animate__fadeInUp" style="line-height: 0.9;">Start</h1>
+                        <h1 class="display-3 animate__animated animate__fadeInUp" style="line-height: 0.9;">trading</h1>
+                        <h1 class="display-3 animate__animated animate__fadeInUp"
+                            style="line-height: 0.9; margin-bottom:40px;">Binance</h1>
+                        <a class="btn btn-info bg-main-color" style="padding:8px 30px; margin-bottom:10px" href="">Registrate</a>
+                        <p class="text-light"> Sistemas automatico<br> de Ganancias</p>
                     </div>
-                    <div class="col-sm-12 col-md-6">
-                        <div class="d-flex">
-                            <img src="./images/bitcoin.png" alt="image of bitcoin" style="width:100px">
-                            <img src="./images/etherium.png" alt="image of etherium" style="width:100px">
-                            <img src="./images/xrp.png" alt="image of xrp" style="width:100px">
+                    <div class="col-sm-12 col-md-6" >
+                        <div class="d-flex justify-content-center" style="margin-bottom: 30px;">
+                            <img src="./images/bitcoin.png" alt="image of bitcoin"
+                                style="width:70px; margin-right:10px">
+                            <img src="./images/etherium.png" alt="image of etherium"
+                                style="width:70px; margin-right:10px">
+                            <img src="./images/xrp.png" alt="image of xrp" style="width:70px;">
                         </div>
+                        <p class="text-light text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Sunt, consequatur neque nostrum itaque cumque ipsum quas quam facere commodi doloremque!</p>
                     </div>
                 </div>
             </div>
