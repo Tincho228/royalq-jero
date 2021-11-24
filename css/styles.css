@@ -1,6 +1,6 @@
 :root {
-    --first-color: #395698;
-    --second-color: #f4511e;
+    --first-color: rgb(16,37,63);
+    --second-color: rgb(52,171,202);
     --third-color: rgb(112, 48, 160);
     --font-title: 'Poppins', sans-serif;
     --font-body: 'Roboto', sans-serif;
@@ -10,6 +10,12 @@
     background: rgb(39, 135, 160);
     background: linear-gradient(180deg, rgba(39, 135, 160, 1) 0%, rgba(54, 177, 210, 1) 80%, rgba(52, 179, 214, 1) 100%);
 
+}
+.bg-first-color {
+    background-color:var(--first-color);
+}
+.bg-second-color{
+    color:var(--second-color);
 }
 
 .bg-image {
@@ -25,4 +31,7 @@
     height: 4px;
     background-color: whitesmoke;
     margin: 4px 0;
+}
+.link-effect:hover {
+
 }
