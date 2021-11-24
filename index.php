@@ -3,10 +3,6 @@
 session_start();
 
 
-require_once './connection.php';
-require_once './model.php';
-
-
 $action = filter_input(INPUT_POST, 'action');
 if ($action == NULL) {
     $action = filter_input(INPUT_GET, 'action');
@@ -37,13 +33,18 @@ switch ($action) {
         include "./view-template.php";
         break;
     default:
+        $user_royal_link = "";
+        $user_binance_link="";
+        $user_phone="";
+        $user_instagram_link="";
+        $user_facebook_link="";
         // register new admin
 
         // $cl_username="gaby1234";
         // $cl_password="Gabriel.3030";
         // $hashedPassword = password_hash($cl_password, PASSWORD_DEFAULT);
         // regClient($cl_username, $hashedPassword );
-        
+
         // Get users list and check
 
         

@@ -1,0 +1,28 @@
+:root {
+    --first-color: #395698;
+    --second-color: #f4511e;
+    --third-color: rgb(112, 48, 160);
+    --font-title: 'Poppins', sans-serif;
+    --font-body: 'Roboto', sans-serif;
+}
+
+.bg-main-color {
+    background: rgb(39, 135, 160);
+    background: linear-gradient(180deg, rgba(39, 135, 160, 1) 0%, rgba(54, 177, 210, 1) 80%, rgba(52, 179, 214, 1) 100%);
+
+}
+
+.bg-image {
+    background-image: url("../images/bg-image-home.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.hamburguer-menu {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: whitesmoke;
+    margin: 4px 0;
+}
