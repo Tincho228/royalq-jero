@@ -39,7 +39,8 @@
                         <h1 class="display-3 animate__animated animate__fadeInUp"
                             style="line-height: 0.9; margin-bottom:10px;">Binance</h1>
                         <p class="text-light" style="margin-bottom:30px"> Sistemas automatico<br> de Ganancias</p>
-                        <a class="btn btn-info bg-main-color" style="padding:8px 30px; margin-bottom:70px" target="_blank"
+                        <a class="btn btn-info bg-main-color" style="padding:8px 30px; margin-bottom:70px"
+                            target="_blank"
                             href="https://raqsy.com/s/<?php if(isset($user_royal_link)){echo $user_royal_link; } ?>">Registrate</a>
 
                     </div>
@@ -51,8 +52,14 @@
                                 style="width:70px; margin-right:10px">
                             <img src="./images/xrp.png" alt="image of xrp" style="width:70px;">
                         </div>
-                        <p class="text-light text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Sunt, consequatur neque nostrum itaque cumque ipsum quas quam facere commodi doloremque!</p>
+                        <p class="text-light text-center" style="font-size:20px;"> Desde la comodidad del hogar y sin
+                            toma de decisiones
+                            apresuradas, estarás participando en el comercio del trading con todas las cryto-monedas mas
+                            importantes.
+                            Podrás tener control de todas tus inversiones y monitorearlas las 24hs, los siete dias de la
+                            semana. Comenzá ahora a disfrutar de la tecnologia y sin necesidad de conocimiento sobre el
+                            mercado del trading.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -67,28 +74,33 @@
                     <div class="col-sm-12 col-md-6">
                         <h4 class="bg-second-color">Que es Royal Q</h4>
                         <h1 class="text-light">Robot automatico</h1>
-                        <h4 class="text-light" style="margin-bottom:30px">Secundario</h4>
-                        <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-                            consequuntur distinctio dignissimos similique velit atque eius fugit, magni, sed et sunt
-                            dolores vitae minus laboriosam necessitatibus facilis quam obcaecati. Iusto!</p>
+                        <h4 class="text-light" style="margin-bottom:30px">Un robot que trabaja con multiples estrategias
+                            con la mas avanzada tecnologia.</h4>
+                        <p class="text-light">Royal q ofrece un robot que toma desiciones por usted de acuerdo a un
+                            estilo de inversion y preferencia de estrategia. Solo
+                            con hacer un click, estará operando las 24 horas y tomando las mejores decisiones del
+                            mercado ajustándose a los parámetros prefijados.
+                        </p>
                         <div class="d-flex">
                             <img src="./images/tilde.png" alt="imagen de check"
                                 style="width:30px; height:30px; margin-right:5px;">
-                            <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, iste.
+                            <p class="text-light">Los usuario solo deben activar el robot.
                             </p>
                         </div>
                         <div class="d-flex">
                             <img src="./images/tilde.png" alt="imagen de check"
                                 style="width:30px; height:30px; margin-right:5px;">
-                            <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, iste.
+                            <p class="text-light">Elegir el tipo de inversion que desean utilizar
                             </p>
                         </div>
                         <div class="d-flex">
                             <img src="./images/tilde.png" alt="imagen de check"
                                 style="width:30px; height:30px; margin-right:5px;">
-                            <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, iste.
+                            <p class="text-light">El robot inteligente utiliza la mejor estrategia de acuerdo a la
+                                situacion del mercado.
                             </p>
                         </div>
+
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <img class="img-fluid" style="margin-top:50px" src="./images/app-group.png"
@@ -96,18 +108,19 @@
                     </div>
                 </div>
                 <div class="row" style="margin-top:40px">
-                    <div class="col-sm-12 col-md-3"><a href="https://raqsy.com/s/<?php if(isset($user_royal_link)){echo $user_royal_link; } ?>" 
-                            class="btn btn-info btn-block bg-main-color"
-                            target="_blank"
+                    <div class="col-sm-12 col-md-3"><a
+                            href="https://raqsy.com/s/<?php if(isset($user_royal_link)){echo $user_royal_link; } ?>"
+                            class="btn btn-info btn-block bg-main-color" target="_blank"
                             style="line-height: 1.5; margin-right:10px; margin-bottom:20px;">Registrate en RoyalQ</a>
                     </div>
-                    <div class="col-sm-12 col-md-3"><a href="https://accounts.binance.me/es/register?ref=<?php if(isset($user_binance_link)){echo $user_binance_link; } ?>" 
-                            class="btn btn-info btn-block bg-main-color"
-                            target="_blank"
+                    <div class="col-sm-12 col-md-3"><a
+                            href="https://accounts.binance.me/es/register?ref=<?php if(isset($user_binance_link)){echo $user_binance_link; } ?>"
+                            class="btn btn-info btn-block bg-main-color" target="_blank"
                             style="line-height: 1.5;margin-right:10px; margin-bottom:20px">Registrate en Binance</a>
                     </div>
-                    <div class="col-sm-12 col-md-3"><a data-toggle="modal" data-target="#contact-modal" class="text-light btn btn-info btn-block bg-main-color"
-                            style="line-height: 1.5;">Contacta un asesor</a></div>
+                    <div class="col-sm-12 col-md-3"><a data-toggle="modal" data-target="#contact-modal"
+                            class="text-light btn btn-info btn-block bg-main-color" style="line-height: 1.5;">Contacta
+                            un asesor</a></div>
                 </div>
             </div>
         </div>
@@ -127,8 +140,11 @@
                         </div>
                         <div style="margin-bottom:50px;">
                             <h5 class="text-light text-center">Ahorra tiempo<br>y recursos</h5>
-                            <p class="text-center text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Sapiente, ab. Expedita earum placeat dolor numquam.</p>
+                            <p class="text-center text-light">La verdad es
+                                que se sabe que las criptomonedas son extremadamente volátiles y la mayoría de las veces
+                                los precios fluctúan drásticamente incluso en minutos. Por lo tanto, en muchos casos,
+                                los comerciantes no pueden reaccionar con la suficiente rapidez a los cambios en el
+                                precio de mercado para lograr su objetivo comercial.</p>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4">
@@ -138,8 +154,9 @@
                         </div>
                         <div style="margin-bottom:50px;">
                             <h5 class="text-light text-center">Inversión<br>sin emociones</h5>
-                            <p class="text-center text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Sapiente, ab. Expedita earum placeat dolor numquam.</p>
+                            <p class="text-center text-light">El robot RoyalQ está diseñado para eliminar el elemento
+                                psicológico del comercio, que puede ser perjudicial para invertir o comerciar con
+                                criptomonedas.</p>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4">
@@ -148,9 +165,11 @@
                                 style="width:70px">
                         </div>
                         <div>
-                            <h5 class="text-light text-center">Ganancias<br>en tiempo real</h5>
-                            <p class="text-center text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Sapiente, ab. Expedita earum placeat dolor numquam.</p>
+                            <h5 class="text-light text-center">Royal Q<br>no retiene tu inversion</h5>
+                            <p class="text-center text-light">RoyalQ no retiene su capital, pero se financia mediante
+                                una suscripción anual de $ 100. Sus fondos permanecen en su intercambio (Binance o Huobi)
+                                que está conectado a través de API.
+                                RoyalQ no tiene acceso a sus fondos, que permanecen seguros en el intercambio.</p>
                         </div>
                     </div>
                 </div>
@@ -182,7 +201,9 @@
                                 La cuenta no tiene ningún costo.
 
                             </p>
-                            <a class="btn btn-info bg-main-color btn-block" href="https://raqsy.com/s/<?php if(isset($user_royal_link)){echo $user_royal_link; } ?>">PASO 1 - Registrate</a>
+                            <a class="btn btn-info bg-main-color btn-block"
+                                href="https://raqsy.com/s/<?php if(isset($user_royal_link)){echo $user_royal_link; } ?>">PASO
+                                1 - Registrate</a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4">
@@ -197,9 +218,9 @@
                                 y obtené un 10 porciento de descuento
                                 en tus operaciones. Sin costos adicionales.
                             </p>
-                            <a class="btn btn-info bg-main-color btn-block" 
-                                target="_blank"
-                                href="https://accounts.binance.me/es/register?ref=<?php if(isset($user_binance_link)){echo $user_binance_link; } ?>">PASO 2 - Registrate</a>
+                            <a class="btn btn-info bg-main-color btn-block" target="_blank"
+                                href="https://accounts.binance.me/es/register?ref=<?php if(isset($user_binance_link)){echo $user_binance_link; } ?>">PASO
+                                2 - Registrate</a>
 
                         </div>
                     </div>
@@ -529,8 +550,10 @@
                         <h1 class="text-light">¿Que estás esperando para unirte?</h1>
                     </div>
                     <div class="col-lg-4">
-                        <a href="https://raqsy.com/s/<?php if(isset($user_royal_link)){echo $user_royal_link; } ?>" target="_blank" class="btn btn-info bg-main-color">Unete</a>
-                        <a class="text-light btn btn-info bg-main-color" data-toggle="modal" data-target="#contact-modal">Contacta un asesor</a>
+                        <a href="https://raqsy.com/s/<?php if(isset($user_royal_link)){echo $user_royal_link; } ?>"
+                            target="_blank" class="btn btn-info bg-main-color">Unete</a>
+                        <a class="text-light btn btn-info bg-main-color" data-toggle="modal"
+                            data-target="#contact-modal">Contacta un asesor</a>
                     </div>
                 </div>
             </div>
@@ -543,7 +566,8 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-4" style="margin-bottom:30px;">
                         <h5 class="bg-second-color">Servicios</h5>
-                        <hr style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;margin-bottom:35px;">
+                        <hr
+                            style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;margin-bottom:35px;">
 
                         <div class="d-flex">
                             <img src="./images/tilde.png" alt="imagen de check"
@@ -578,7 +602,8 @@
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4" style="margin-bottom:30px;">
                         <h5 class="bg-second-color">Contacto</h5>
-                        <hr style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;margin-bottom:35px;">
+                        <hr
+                            style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;margin-bottom:35px;">
 
                         <div class="d-flex">
                             <img src="./images/icono-españa.png" alt="imagen de check"
@@ -591,19 +616,24 @@
                             Telefono: 658995720</p>
                         <p class="text-light" style="margin-top:30px;">Redes Sociales</p>
                         <div class="d-flex">
-                            <a href="https://api.whatsapp.com/send?phone=<?php if(isset($user_phone)){echo $user_phone;} ?>" target="_blank"><img src="./images/whatsapp.png" alt="Icono de whatsapp"
+                            <a href="https://api.whatsapp.com/send?phone=<?php if(isset($user_phone)){echo $user_phone;} ?>"
+                                target="_blank"><img src="./images/whatsapp.png" alt="Icono de whatsapp"
                                     style="width: 30px;margin-right:10px;"></a>
-                            <a href="<?php if(isset($user_telegram_link)){echo $user_telegram_link;} ?>" target="_blank"><img src="./images/telegram.png" alt="Icono de Telegram"
+                            <a href="<?php if(isset($user_telegram_link)){echo $user_telegram_link;} ?>"
+                                target="_blank"><img src="./images/telegram.png" alt="Icono de Telegram"
                                     style="width: 30px;margin-right:10px;"></a>
-                            <a href="<?php if(isset($user_facebook_link)){echo $user_facebook_link;} ?>" target="_blank"><img src="./images/facebook.png" alt="Icono de facebook"
+                            <a href="<?php if(isset($user_facebook_link)){echo $user_facebook_link;} ?>"
+                                target="_blank"><img src="./images/facebook.png" alt="Icono de facebook"
                                     style="width: 30px;margin-right:10px;"></a>
-                            <a href="<?php if(isset($user_instagram_link)){echo $user_instagram_link;} ?>" target="_blank"><img src="./images/instagram.png" alt="Icono de Instagram"
+                            <a href="<?php if(isset($user_instagram_link)){echo $user_instagram_link;} ?>"
+                                target="_blank"><img src="./images/instagram.png" alt="Icono de Instagram"
                                     style="width: 30px;"></a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <h5 class="bg-second-color">Envianos un mensaje</h5>
-                        <hr style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;margin-bottom:35px;">
+                        <hr
+                            style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;margin-bottom:35px;">
                         <div class="text-light">
                             <form action="./index.php" method="post">
                                 <div class="form-group">
