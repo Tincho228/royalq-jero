@@ -2,6 +2,7 @@
     --first-color: rgb(16, 37, 63);
     --second-color: rgb(52, 171, 202);
     --third-color: rgb(23, 55, 94);
+    --fourth-color: rgb(38,38,38);
     --font-title: 'Poppins', sans-serif;
     --font-body: 'Roboto', sans-serif;
 }
@@ -28,6 +29,14 @@
     background-color: var(--third-color);
 }
 
+.bg-last-color {
+    background: rgb(23, 55, 94);
+    background: linear-gradient(180deg, rgba(23, 55, 94, 1) 0%, rgba(38, 38, 38, 1) 50%, rgba(38, 38, 38, 1) 100%);
+}
+.bg-fourth-color {
+    background-color:var(--fourth-color);
+}
+
 .bg-image {
     background-image: url("../images/bg-image-home.jpg");
     background-position: center;
@@ -42,5 +51,3 @@
     background-color: whitesmoke;
     margin: 4px 0;
 }
-
-.link-effect:hover {}

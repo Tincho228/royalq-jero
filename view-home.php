@@ -110,7 +110,7 @@
     </div>
     <!-- Characteristics -->
     <div class="container-fluid bg-middle-color">
-        <div class="row justify-content-center" style="padding:40px 0px">
+        <div class="row justify-content-center" style="padding-top:40px">
             <div class="col-sm-12 col-lg-8">
                 <h4 class="bg-second-color text-center">Características</h4>
                 <h1 class="text-light text-center">¿No sabes nada de trading pero quieres invertir?</h1>
@@ -155,7 +155,7 @@
     </div>
     <!-- How to start -->
     <div class="container-fluid bg-third-color">
-        <div class="row justify-content-center" style="padding:40px 0px">
+        <div class="row justify-content-center" style="padding-bottom:40px 0px">
             <div class="col-sm-12 col-lg-8">
                 <h4 class="bg-second-color text-center">Guía rápida</h4>
                 <h1 class="text-light text-center">¿Cómo empiezo?</h1>
@@ -216,7 +216,7 @@
     </div>
     <!-- Tutoriales -->
     <div class="container-fluid bg-third-color">
-        <div class="row justify-content-center" style="padding:40px 0px">
+        <div class="row justify-content-center" style="padding-bottom:40px">
             <div class="col-sm-12 col-lg-8">
                 <h4 class="bg-second-color text-center">Tutoriales</h4>
                 <h1 class="text-light text-center">Nuestros Tutoriales</h1>
@@ -239,8 +239,10 @@
                                             data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
                                             aria-controls="collapseOne">
                                             <div class="d-flex justify-content-between">
-                                                <img src="./images/pdf.png" alt="Imagen de pdf" style="width:50px">
-                                                <p class="text-light" style="margin:0px 10px">Como vincular la API</p>
+                                                <img src="./images/pdf.png" alt="Imagen de pdf"
+                                                    style="width:50px; height:50px;">
+                                                <p class="text-light" style="margin:0px 10px">Como registrarse en Royal
+                                                    Q</p>
                                                 <img src="./images/download.png" alt="imagen de descarga"
                                                     style="width:30px;height:30px;">
                                             </div>
@@ -252,7 +254,7 @@
                                     data-parent="#accordionExample">
                                     <div class="card-body">
                                         <h5 class="bg-second-color">Documento PDF</h5>
-                                        <h2 class="text-light">Vincular API</h2>
+                                        <h2 class="text-light">Como registrarse en Royal Q</h2>
                                         <p class="text-light" style="font-style: italic;">Por Jero Crypto</p>
                                         <p class="text-light">es una plataforma de intercambio de criptomonedas
                                             que actualmente es la
@@ -288,7 +290,7 @@
                                             aria-controls="collapseTwo">
                                             <div class="d-flex justify-content-between">
                                                 <img src="./images/pdf.png" alt="Imagen de pdf" style="width:50px">
-                                                <p class="text-light" style="margin:0px 10px">Como vincular la API</p>
+                                                <p class="text-light" style="margin:0px 10px">Como activar Royal Q</p>
                                                 <img src="./images/download.png" alt="imagen de descarga"
                                                     style="width:30px;height:30px;">
                                             </div>
@@ -300,7 +302,7 @@
                                     data-parent="#accordionExample">
                                     <div class="card-body">
                                         <h5 class="bg-second-color">Documento PDF</h5>
-                                        <h2 class="text-light">Vincular API</h2>
+                                        <h2 class="text-light">Como activar Royal Q</h2>
                                         <p class="text-light" style="font-style: italic;">Por Jero Crypto</p>
                                         <p class="text-light">es una plataforma de intercambio de criptomonedas
                                             que actualmente es la
@@ -336,7 +338,8 @@
                                             aria-controls="collapseThree">
                                             <div class="d-flex justify-content-between">
                                                 <img src="./images/pdf.png" alt="Imagen de pdf" style="width:50px">
-                                                <p class="text-light" style="margin:0px 10px">Como vincular la API</p>
+                                                <p class="text-light" style="margin:0px 10px">Como vincular la API Key
+                                                </p>
                                                 <img src="./images/download.png" alt="imagen de descarga"
                                                     style="width:30px;height:30px;">
                                             </div>
@@ -348,7 +351,7 @@
                                     data-parent="#accordionExample">
                                     <div class="card-body">
                                         <h5 class="bg-second-color">Documento PDF</h5>
-                                        <h2 class="text-light">Vincular API</h2>
+                                        <h2 class="text-light">Como vincular la API Key</h2>
                                         <p class="text-light" style="font-style: italic;">Por Jero Crypto</p>
                                         <p class="text-light">es una plataforma de intercambio de criptomonedas
                                             que actualmente es la
@@ -373,15 +376,120 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card bg-transparent"
+                                style="margin-bottom:5px; border-radius:5px; border:1px solid rgb(52, 171, 202)">
+                                <div class="card-header" id="headingOne" style="border-radius:5px;">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-block  text-left text-light collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
+                                            aria-controls="collapseFour">
+                                            <div class="d-flex justify-content-between">
+                                                <img src="./images/pdf.png" alt="Imagen de pdf"
+                                                    style="width:50px; height:50px;">
+                                                <p class="text-light" style="margin:0px 10px">Como activar
+                                                    Professional Edition
+                                                </p>
+                                                <img src="./images/download.png" alt="imagen de descarga"
+                                                    style="width:30px;height:30px;">
+                                            </div>
+
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <h5 class="bg-second-color">Documento PDF</h5>
+                                        <h2 class="text-light">Como activar
+                                            Professional Edition
+                                        </h2>
+                                        <p class="text-light" style="font-style: italic;">Por Jero Crypto</p>
+                                        <p class="text-light">Este tutorial es para activar la opción de Professional
+                                            Edition en RoyalQ.
+                                            Las criptomonedas Generales salen en Quantitative desde un principio, pero
+                                            para acceder a las criptomonedas Profesionales, tienes que activar el
+                                            “Professional Edition”
+                                        </p>
+                                        <div class="d-flex">
+                                            <img src="./images/tilde.png" alt="imagen de check"
+                                                style="width:30px; height:30px; margin-right:5px;">
+                                            <p class="text-light">Este Documento tiene derechos de autor.
+                                            </p>
+                                        </div>
+                                        <a class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
+                                        <button class="btn text-light" type="button" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="false"
+                                            aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                                            <i class="fas fa-window-close text-light"></i> Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card bg-transparent"
+                                style="margin-bottom:5px; border-radius:5px; border:1px solid rgb(52, 171, 202)">
+                                <div class="card-header" id="headingOne" style="border-radius:5px;">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-block  text-left text-light collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapseFive" aria-expanded="true"
+                                            aria-controls="collapseFive">
+                                            <div class="d-flex justify-content-between">
+                                                <img src="./images/pdf.png" alt="Imagen de pdf"
+                                                    style="width:50px; height:50px;">
+                                                <p class="text-light" style="margin:0px 10px">Pestaña Home de
+                                                    Royal Q
+                                                </p>
+                                                <img src="./images/download.png" alt="imagen de descarga"
+                                                    style="width:30px;height:30px;">
+                                            </div>
+
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <h5 class="bg-second-color">Documento PDF</h5>
+                                        <h2 class="text-light">Pestaña Home de Royal Q
+                                        </h2>
+                                        <p class="text-light" style="font-style: italic;">Por Jero Crypto</p>
+                                        <p class="text-light">En este tutorial vamos a desglosar la pestaña HOME.
+                                            Nos vamos a centrar en los ochos iconos
+                                            principales que están situados en la parte
+                                            central de la pantalla, más cuatro iconos más
+                                            que están en el apartado de “More”
+                                        </p>
+                                        <div class="d-flex">
+                                            <img src="./images/tilde.png" alt="imagen de check"
+                                                style="width:30px; height:30px; margin-right:5px;">
+                                            <p class="text-light">Este Documento tiene derechos de autor.
+                                            </p>
+                                        </div>
+                                        <a class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
+                                        <button class="btn text-light" type="button" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="false"
+                                            aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                                            <i class="fas fa-window-close text-light"></i> Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <h5 class="bg-second-color">Videos</h5>
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <!-- 16:9 aspect ratio -->
-                        <p class="caption font-body text-light">Registro en Binance</p>
+                        <p class="caption font-body text-light">Como registrarse en Royal Q</p>
                         <div class="embed-responsive embed-responsive-16by9"
                             style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/zMGX8EITYh4"
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/T0BzhC42ALY"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
@@ -390,32 +498,10 @@
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <!-- 16:9 aspect ratio -->
-                        <p class="caption font-body text-light">Como registrar en RoyalQ</p>
+                        <p class="caption font-body text-light">Activar Professional Edition en Royal Q</p>
                         <div class="embed-responsive embed-responsive-16by9"
                             style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/noRUTQwldX8"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <!-- 16:9 aspect ratio -->
-                        <p class="caption font-body text-light">Como activar el bot</p>
-                        <div class="embed-responsive embed-responsive-16by9"
-                            style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/lNbP8JLK_7Y"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <!-- 16:9 aspect ratio -->
-                        <p class="caption font-body text-light">Como vincular el bot</p>
-                        <div class="embed-responsive embed-responsive-16by9"
-                            style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/82FqhhHxs-g"
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/oiaXDtOlJI0"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
@@ -426,8 +512,22 @@
 
         </div>
     </div>
-    </div>
-    </div>
+    <!-- Invitacion a actuar -->
+    <div class="container-fluid bg-last-color">
+        <div class="row justify-content-center" style="padding:70px 0px;">
+            <div class="col-sm-12 col-lg-8">
+                <hr class="bg-light" style="margin-bottom:30px;">
+                <div class="row align-items-center">
+                <div class="col-lg-8">
+                <h1 class="text-light">¿Que estás esperando para unirte?</h1>
+                </div>
+                <div class="col-lg-4">
+                <a href="" class="btn btn-info bg-main-color" >Unete</a>
+                <a href="" class="btn btn-info bg-main-color" >Contacta un asesor</a>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!--  Footer  -->
     <?php include "./common-footer.php" ?>
