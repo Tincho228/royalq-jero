@@ -1,7 +1,7 @@
 :root {
-    --first-color: rgb(16,37,63);
-    --second-color: rgb(52,171,202);
-    --third-color: rgb(112, 48, 160);
+    --first-color: rgb(16, 37, 63);
+    --second-color: rgb(52, 171, 202);
+    --third-color: rgb(23, 55, 94);
     --font-title: 'Poppins', sans-serif;
     --font-body: 'Roboto', sans-serif;
 }
@@ -9,13 +9,23 @@
 .bg-main-color {
     background: rgb(39, 135, 160);
     background: linear-gradient(180deg, rgba(39, 135, 160, 1) 0%, rgba(54, 177, 210, 1) 80%, rgba(52, 179, 214, 1) 100%);
+}
 
+.bg-middle-color {
+    background: rgb(16, 37, 63);
+    background: linear-gradient(180deg, rgba(16, 37, 63, 1) 0%, rgba(16, 37, 63, 1) 50%, rgba(23, 55, 94, 1) 100%);
 }
+
 .bg-first-color {
-    background-color:var(--first-color);
+    background-color: var(--first-color);
 }
-.bg-second-color{
-    color:var(--second-color);
+
+.bg-second-color {
+    color: var(--second-color);
+}
+
+.bg-third-color {
+    background-color: var(--third-color);
 }
 
 .bg-image {
@@ -32,6 +42,5 @@
     background-color: whitesmoke;
     margin: 4px 0;
 }
-.link-effect:hover {
 
-}
+.link-effect:hover {}
