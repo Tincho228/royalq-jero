@@ -534,9 +534,9 @@
         <div class="row justify-content-center" style="padding:70px 0px;">
             <div class="col-sm-12 col-lg-8">
                 <div class="row">
-                    <div class="col-sm-12 col-lg-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4" style="margin-bottom:30px;">
                         <h5 class="bg-second-color">Servicios</h5>
-                        <hr style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;">
+                        <hr style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;margin-bottom:35px;">
 
                         <div class="d-flex">
                             <img src="./images/tilde.png" alt="imagen de check"
@@ -569,9 +569,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4" style="margin-bottom:30px;">
                         <h5 class="bg-second-color">Contacto</h5>
-                        <hr style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;">
+                        <hr style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;margin-bottom:35px;">
 
                         <div class="d-flex">
                             <img src="./images/icono-españa.png" alt="imagen de check"
@@ -594,9 +594,9 @@
                                     style="width: 30px;"></a>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <h5 class="bg-second-color">Envianos un mensaje</h5>
-                        <hr style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;">
+                        <hr style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;margin-bottom:35px;">
                         <div class="text-light">
                             <form action="./index.php" method="post">
                                 <div class="form-group">
