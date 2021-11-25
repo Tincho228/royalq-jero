@@ -285,11 +285,9 @@
                                         <h5 class="bg-second-color">Documento PDF</h5>
                                         <h2 class="text-light">Como registrarse en Royal Q</h2>
                                         <p class="text-light" style="font-style: italic;">Por Jero Crypto</p>
-                                        <p class="text-light">es una plataforma de intercambio de criptomonedas
-                                            que actualmente es la
-                                            más grande del mundo
-                                            en términos de volumen de comercio diario de criptomonedas.
-                                            Es un medio por el cual se puede guardar.
+                                        <p class="text-light">En este tutorial enseñamos creacion de link de referido,
+                                            usuario,
+                                            contraseña y como proteger tu informacion.
                                         </p>
                                         <div class="d-flex">
                                             <img src="./images/tilde.png" alt="imagen de check"
@@ -297,7 +295,7 @@
                                             <p class="text-light">Este Documento tiene derechos de autor.
                                             </p>
                                         </div>
-                                        <a class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
+                                        <a href="./docs/reg-royal.pdf" download="Como registrarse en royal Q.pdf" class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
                                         <button class="btn text-light" type="button" data-toggle="collapse"
                                             data-target="#collapseOne" aria-expanded="false"
                                             aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
@@ -333,11 +331,8 @@
                                         <h5 class="bg-second-color">Documento PDF</h5>
                                         <h2 class="text-light">Como activar Royal Q</h2>
                                         <p class="text-light" style="font-style: italic;">Por Jero Crypto</p>
-                                        <p class="text-light">es una plataforma de intercambio de criptomonedas
-                                            que actualmente es la
-                                            más grande del mundo
-                                            en términos de volumen de comercio diario de criptomonedas.
-                                            Es un medio por el cual se puede guardar.
+                                        <p class="text-light">En este tutorial te enseñamos todos los pasos
+                                            para activar Royal Q en tu dispositivo.
                                         </p>
                                         <div class="d-flex">
                                             <img src="./images/tilde.png" alt="imagen de check"
@@ -345,7 +340,7 @@
                                             <p class="text-light">Este Documento tiene derechos de autor.
                                             </p>
                                         </div>
-                                        <a class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
+                                        <a href="./docs/act-royal.pdf" download="Como activar Royal Q.pdf" class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
                                         <button class="btn text-light" type="button" data-toggle="collapse"
                                             data-target="#collapseTwo" aria-expanded="false"
                                             aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
@@ -382,11 +377,10 @@
                                         <h5 class="bg-second-color">Documento PDF</h5>
                                         <h2 class="text-light">Como vincular la API Key</h2>
                                         <p class="text-light" style="font-style: italic;">Por Jero Crypto</p>
-                                        <p class="text-light">es una plataforma de intercambio de criptomonedas
-                                            que actualmente es la
-                                            más grande del mundo
-                                            en términos de volumen de comercio diario de criptomonedas.
-                                            Es un medio por el cual se puede guardar.
+                                        <p class="text-light">Este tutorial es para configurar y conectar la API KEY de
+                                            Binance con RoyalQ
+                                            para que el bot pueda operar en nuestro Exchange. Este proceso es
+                                            totalmente necesario para que el bot funcione.
                                         </p>
                                         <div class="d-flex">
                                             <img src="./images/tilde.png" alt="imagen de check"
@@ -394,7 +388,7 @@
                                             <p class="text-light">Este Documento tiene derechos de autor.
                                             </p>
                                         </div>
-                                        <a class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
+                                        <a href="./docs/api.pdf" download="Como vincular Api Key.pdf" class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
                                         <button class="btn text-light" type="button" data-toggle="collapse"
                                             data-target="#collapseOne" aria-expanded="false"
                                             aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
@@ -447,7 +441,7 @@
                                             <p class="text-light">Este Documento tiene derechos de autor.
                                             </p>
                                         </div>
-                                        <a class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
+                                        <a href="./docs/edition.pdf" download="Como activar opcion Personal Edition.pdf" class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
                                         <button class="btn text-light" type="button" data-toggle="collapse"
                                             data-target="#collapseOne" aria-expanded="false"
                                             aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
@@ -499,7 +493,7 @@
                                             <p class="text-light">Este Documento tiene derechos de autor.
                                             </p>
                                         </div>
-                                        <a class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
+                                        <a href="./docs/home.pdf" download="Pestaña home.pdf" class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
                                         <button class="btn text-light" type="button" data-toggle="collapse"
                                             data-target="#collapseOne" aria-expanded="false"
                                             aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
@@ -670,40 +664,31 @@
         </div>
     </div>
 
-
-    <div class="modal fade" id="intro-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content bg-last-color">
-                <div class="modal-header align-items-center">
-                    <img class="mail_icon" src="./images/logo.png" alt="email icon" style="width:30px;">
-                    <h5 class="modal-title bg-second-color" style="margin-left:10px;" id="exampleModalLabel">Video intro
-                    </h5>
-
-                    <button type="button" class="close" onclick="onRemove()">
-                        <span aria-hidden="true" class="text-light">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body text-light">
-                    <div class="embed-responsive embed-responsive-16by9"
-                        style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
-                        <video id="video-intro" controls autoplay muted width="500">
-                            <source id="mp4_src" src="./videos/intro.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
+    <!-- Intro video -->
+    <?php
+        if($_SESSION['status'] === "created"){
+            if(isset($_SESSION['watched'])){
+                if($_SESSION['watched'] === "true"){
+                     
+                }
+            }else{
+                include "./view-modal-intro.php";
+                $_SESSION['watched'] = "true";   
+            }   
+        }
+    ?>
     <script>
         var modal = document.getElementById("intro-modal");
         var video = document.getElementById("video-intro");
-        modal.style.display = "block";
-        modal.classList.add("show");
-        video.play();
-        function onRemove(){
+        if (modal === null) {
+
+        } else {
+            modal.style.display = "block";
+            modal.classList.add("show");
+            video.play();
+        }
+
+        function onRemove() {
             video.pause();
             modal.classList.remove("show");
             modal.style.display = "none";

@@ -1,7 +1,7 @@
 <?php
 // Create or access a Session
+session_set_cookie_params(0);
 session_start();
-
 
 $action = filter_input(INPUT_POST, 'action');
 if ($action == NULL) {
@@ -47,8 +47,7 @@ switch ($action) {
         // regClient($cl_username, $hashedPassword );
 
         // Get users list and check
-
-        
+        $_SESSION['status'] = "created";
         include './view-home.php';
         break;
 }
