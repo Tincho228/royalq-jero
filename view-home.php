@@ -680,7 +680,7 @@
                     <h5 class="modal-title bg-second-color" style="margin-left:10px;" id="exampleModalLabel">Video intro
                     </h5>
 
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <button type="button" class="close" onclick="onRemove()">
                         <span aria-hidden="true" class="text-light">&times;</span>
                     </button>
                 </div>
@@ -703,6 +703,11 @@
         modal.style.display = "block";
         modal.classList.add("show");
         video.play();
+        function onRemove(){
+            video.pause();
+            modal.classList.remove("show");
+            modal.style.display = "none";
+        }
     </script>
 
 
