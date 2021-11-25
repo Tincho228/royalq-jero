@@ -518,13 +518,115 @@
             <div class="col-sm-12 col-lg-8">
                 <hr class="bg-light" style="margin-bottom:30px;">
                 <div class="row align-items-center">
-                <div class="col-lg-8">
-                <h1 class="text-light">¿Que estás esperando para unirte?</h1>
+                    <div class="col-lg-8">
+                        <h1 class="text-light">¿Que estás esperando para unirte?</h1>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="" class="btn btn-info bg-main-color">Unete</a>
+                        <a href="" class="btn btn-info bg-main-color">Contacta un asesor</a>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                <a href="" class="btn btn-info bg-main-color" >Unete</a>
-                <a href="" class="btn btn-info bg-main-color" >Contacta un asesor</a>
-                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Servicios y Contacto -->
+    <div class="container-fluid bg-fourth-color">
+        <div class="row justify-content-center" style="padding:70px 0px;">
+            <div class="col-sm-12 col-lg-8">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4">
+                        <h5 class="bg-second-color">Servicios</h5>
+                        <hr style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;">
+
+                        <div class="d-flex">
+                            <img src="./images/tilde.png" alt="imagen de check"
+                                style="width:30px; height:30px; margin-right:5px;">
+                            <p class="text-light">Las mejores estrategias a través de Grupos de telegram VIP
+                            </p>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./images/tilde.png" alt="imagen de check"
+                                style="width:30px; height:30px; margin-right:5px;">
+                            <p class="text-light">Asistencia técnica.
+                            </p>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./images/tilde.png" alt="imagen de check"
+                                style="width:30px; height:30px; margin-right:5px;">
+                            <p class="text-light">Capacitación.
+                            </p>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./images/tilde.png" alt="imagen de check"
+                                style="width:30px; height:30px; margin-right:5px;">
+                            <p class="text-light">Tutoriale en línea.
+                            </p>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./images/tilde.png" alt="imagen de check"
+                                style="width:30px; height:30px; margin-right:5px;">
+                            <p class="text-light">Seguridad.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <h5 class="bg-second-color">Contacto</h5>
+                        <hr style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;">
+
+                        <div class="d-flex">
+                            <img src="./images/icono-españa.png" alt="imagen de check"
+                                style="width:30px; height:30px; margin-right:5px;">
+                            <p class="text-light">España, ES.
+                            </p>
+                        </div>
+                        <p class="text-light"><i class="fas fa-phone-square-alt text-light"
+                                style="font-size: 30px;"></i>
+                            Telefono: 658995720</p>
+                        <p class="text-light" style="text-decoration: underline;">Redes Sociales</p>
+                        <div class="d-flex">
+                            <a href=""><img src="./images/whatsapp.png" alt="Icono de whatsapp"
+                                    style="width: 30px;margin-right:10px;"></a>
+                            <a href=""><img src="./images/telegram.png" alt="Icono de Telegram"
+                                    style="width: 30px;margin-right:10px;"></a>
+                            <a href=""><img src="./images/facebook.png" alt="Icono de Telegram"
+                                    style="width: 30px;margin-right:10px;"></a>
+                            <a href=""><img src="./images/instagram.png" alt="Icono de Instagram"
+                                    style="width: 30px;"></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <h5 class="bg-second-color">Envianos un mensaje</h5>
+                        <hr style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;">
+                        <div class="text-light">
+                            <form action="./index.php" method="post">
+                                <div class="form-group">
+                                    <label for="name" class="col-form-label">Nombre :</label>
+                                    <input type="text" name="name" class="form-control" id="name"
+                                        placeholder="Juan Perez" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="col-form-label">Email :</label>
+                                    <input type="email" name="email" class="form-control" id="email"
+                                        placeholder="ejemplo@mail.com.ar" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone" class="col-form-label">Telefono :</label>
+                                    <input type="text" name="phone" class="form-control" id="email"
+                                        placeholder="Telefono" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message" class="col-form-label">Mensaje :</label>
+                                    <textarea class="form-control" name="message" id="message"
+                                        placeholder="Ingrese aqui su consulta" required></textarea>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                    <!-- Add the action name - value pair -->
+                                    <input type="hidden" name="action" value="contact">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
