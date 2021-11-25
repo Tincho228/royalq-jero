@@ -114,7 +114,7 @@
             <div class="col-sm-12 col-lg-8">
                 <h4 class="bg-second-color text-center">Características</h4>
                 <h1 class="text-light text-center">¿No sabes nada de trading pero quieres invertir?</h1>
-                <h4 class="text-light text-center" style="margin-bottom:30px">Tres razones para elegir Royal Q.</h4>
+                <h4 class="text-light text-center" style="margin-bottom:30px">Tres razones para elegir Royal Q</h4>
                 <div class="row" style="margin:70px 0px">
                     <div class="col-sm-12 col-md-4">
                         <div class="d-flex justify-content-center">
@@ -161,10 +161,10 @@
                 <h1 class="text-light text-center">¿Cómo empiezo?</h1>
                 <h4 class="text-light text-center" style="margin-bottom:30px">Sólo son tres pasos.</h4>
                 <p class="text-center text-light">Recuerda que tienes a disposición todos los tutoriales que
-                                te guiaran paso a paso.
-                                También puedes enviarnos un mensaje y un asesor se pondrá
-                                en contacto a la brevedad.
-                            </p>
+                    te guiaran paso a paso.<br>
+                    También puedes enviarnos un mensaje y un asesor se pondrá
+                    en contacto a la brevedad.
+                </p>
                 <div class="row" style="margin:70px 0px">
                     <div class="col-sm-12 col-md-4">
                         <div class="d-flex justify-content-center">
@@ -173,8 +173,10 @@
                         </div>
                         <div style="margin-bottom:50px;">
                             <h5 class="text-light text-center">Creá una<br>cuenta en Royal Q</h5>
-                            <p class="text-center text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Sapiente, ab. Expedita earum placeat dolor numquam.
+                            <p class="text-center text-light">Entrá en el link
+                                y segui los pasos. No olvides guardar tus contraseñas.
+                                La cuenta no tiene ningún costo.
+
                             </p>
                             <a class="btn btn-info bg-main-color btn-block" href="">PASO 1 - Registrate</a>
                         </div>
@@ -187,8 +189,10 @@
                         </div>
                         <div style="margin-bottom:50px;">
                             <h5 class="text-light text-center">Crea una<br>cuenta en Binance</h5>
-                            <p class="text-center text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Sapiente, ab. Expedita earum placeat dolor numquam.</p>
+                            <p class="text-center text-light">Entrá en el link
+                                y obtené un 10 porciento de descuento
+                                en tus operaciones. Sin costos adicionales.
+                            </p>
                             <a class="btn btn-info bg-main-color btn-block" href="">PASO 2 - Registrate</a>
                         </div>
                     </div>
@@ -199,14 +203,231 @@
                         </div>
                         <div>
                             <h5 class="text-light text-center">Vinculá<br>tus cuentas</h5>
-                            <p class="text-center text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Sapiente, ab. Expedita earum placeat dolor numquam.</p>
+                            <p class="text-center text-light">Vinculá tu cuenta de Binance con el robot Royal Q.
+                                Entrá en el link y seguí los pasos del tutorial.
+
+                            </p>
                             <a class="btn btn-info bg-main-color btn-block" href="">PASO 3 - Mirá el tutorial</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <!-- Tutoriales -->
+    <div class="container-fluid bg-third-color">
+        <div class="row justify-content-center" style="padding:40px 0px">
+            <div class="col-sm-12 col-lg-8">
+                <h4 class="bg-second-color text-center">Tutoriales</h4>
+                <h1 class="text-light text-center">Nuestros Tutoriales</h1>
+                <h4 class="text-light text-center" style="margin-bottom:30px">Todo sobre Royal Q, Binance y el Plan de
+                    Compensación.</h4>
+                <p class="text-center text-light">Recuerda que tienes a disposición todos los tutoriales que
+                    te guiaran paso a paso.<br>
+                    También puedes enviarnos un mensaje y un asesor se pondrá
+                    en contacto a la brevedad.
+                </p>
+                <h5 class="bg-second-color">Documentos</h5>
+                <div class="row" style="margin:30px 0px">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card bg-transparent"
+                                style="margin-bottom:5px; border-radius:5px; border:1px solid rgb(52, 171, 202)">
+                                <div class="card-header" id="headingOne" style="border-radius:5px;">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-block  text-left text-light collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <div class="d-flex justify-content-between">
+                                                <img src="./images/pdf.png" alt="Imagen de pdf" style="width:50px">
+                                                <p class="text-light" style="margin:0px 10px">Como vincular la API</p>
+                                                <img src="./images/download.png" alt="imagen de descarga"
+                                                    style="width:30px;height:30px;">
+                                            </div>
+
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <h5 class="bg-second-color">Documento PDF</h5>
+                                        <h2 class="text-light">Vincular API</h2>
+                                        <p class="text-light" style="font-style: italic;">Por Jero Crypto</p>
+                                        <p class="text-light">es una plataforma de intercambio de criptomonedas
+                                            que actualmente es la
+                                            más grande del mundo
+                                            en términos de volumen de comercio diario de criptomonedas.
+                                            Es un medio por el cual se puede guardar.
+                                        </p>
+                                        <div class="d-flex">
+                                            <img src="./images/tilde.png" alt="imagen de check"
+                                                style="width:30px; height:30px; margin-right:5px;">
+                                            <p class="text-light">Este Documento tiene derechos de autor.
+                                            </p>
+                                        </div>
+                                        <a class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
+                                        <button class="btn text-light" type="button" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="false"
+                                            aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                                            <i class="fas fa-window-close text-light"></i> Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card bg-transparent"
+                                style="margin-bottom:5px; border-radius:5px; border:1px solid rgb(52, 171, 202)">
+                                <div class="card-header" id="headingOne" style="border-radius:5px;">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-block  text-left text-light collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                                            aria-controls="collapseTwo">
+                                            <div class="d-flex justify-content-between">
+                                                <img src="./images/pdf.png" alt="Imagen de pdf" style="width:50px">
+                                                <p class="text-light" style="margin:0px 10px">Como vincular la API</p>
+                                                <img src="./images/download.png" alt="imagen de descarga"
+                                                    style="width:30px;height:30px;">
+                                            </div>
+
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <h5 class="bg-second-color">Documento PDF</h5>
+                                        <h2 class="text-light">Vincular API</h2>
+                                        <p class="text-light" style="font-style: italic;">Por Jero Crypto</p>
+                                        <p class="text-light">es una plataforma de intercambio de criptomonedas
+                                            que actualmente es la
+                                            más grande del mundo
+                                            en términos de volumen de comercio diario de criptomonedas.
+                                            Es un medio por el cual se puede guardar.
+                                        </p>
+                                        <div class="d-flex">
+                                            <img src="./images/tilde.png" alt="imagen de check"
+                                                style="width:30px; height:30px; margin-right:5px;">
+                                            <p class="text-light">Este Documento tiene derechos de autor.
+                                            </p>
+                                        </div>
+                                        <a class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
+                                        <button class="btn text-light" type="button" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                                            <i class="fas fa-window-close text-light"></i> Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card bg-transparent"
+                                style="margin-bottom:5px; border-radius:5px; border:1px solid rgb(52, 171, 202)">
+                                <div class="card-header" id="headingOne" style="border-radius:5px;">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-block  text-left text-light collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
+                                            aria-controls="collapseThree">
+                                            <div class="d-flex justify-content-between">
+                                                <img src="./images/pdf.png" alt="Imagen de pdf" style="width:50px">
+                                                <p class="text-light" style="margin:0px 10px">Como vincular la API</p>
+                                                <img src="./images/download.png" alt="imagen de descarga"
+                                                    style="width:30px;height:30px;">
+                                            </div>
+
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <h5 class="bg-second-color">Documento PDF</h5>
+                                        <h2 class="text-light">Vincular API</h2>
+                                        <p class="text-light" style="font-style: italic;">Por Jero Crypto</p>
+                                        <p class="text-light">es una plataforma de intercambio de criptomonedas
+                                            que actualmente es la
+                                            más grande del mundo
+                                            en términos de volumen de comercio diario de criptomonedas.
+                                            Es un medio por el cual se puede guardar.
+                                        </p>
+                                        <div class="d-flex">
+                                            <img src="./images/tilde.png" alt="imagen de check"
+                                                style="width:30px; height:30px; margin-right:5px;">
+                                            <p class="text-light">Este Documento tiene derechos de autor.
+                                            </p>
+                                        </div>
+                                        <a class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
+                                        <button class="btn text-light" type="button" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="false"
+                                            aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                                            <i class="fas fa-window-close text-light"></i> Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h5 class="bg-second-color">Videos</h5>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <!-- 16:9 aspect ratio -->
+                        <p class="caption font-body text-light">Registro en Binance</p>
+                        <div class="embed-responsive embed-responsive-16by9"
+                            style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/zMGX8EITYh4"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <!-- 16:9 aspect ratio -->
+                        <p class="caption font-body text-light">Como registrar en RoyalQ</p>
+                        <div class="embed-responsive embed-responsive-16by9"
+                            style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/noRUTQwldX8"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <!-- 16:9 aspect ratio -->
+                        <p class="caption font-body text-light">Como activar el bot</p>
+                        <div class="embed-responsive embed-responsive-16by9"
+                            style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/lNbP8JLK_7Y"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <!-- 16:9 aspect ratio -->
+                        <p class="caption font-body text-light">Como vincular el bot</p>
+                        <div class="embed-responsive embed-responsive-16by9"
+                            style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/82FqhhHxs-g"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
     </div>
     <!--  Footer  -->
     <?php include "./common-footer.php" ?>
