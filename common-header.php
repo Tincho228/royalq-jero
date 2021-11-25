@@ -18,7 +18,7 @@
             <a class="nav-link text-light" href="./index.php#howToStart">Como empiezo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="index.php?action=tutorials">Tutoriales</a>
+            <a class="nav-link text-light" href="index.php#tutoriales">Tutoriales</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-light"

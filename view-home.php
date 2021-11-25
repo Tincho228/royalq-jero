@@ -39,8 +39,8 @@
                         <h1 class="display-3 animate__animated animate__fadeInUp"
                             style="line-height: 0.9; margin-bottom:10px;">Binance</h1>
                         <p class="text-light" style="margin-bottom:30px"> Sistemas automatico<br> de Ganancias</p>
-                        <a class="btn btn-info bg-main-color" style="padding:8px 30px; margin-bottom:70px"
-                            href="">Registrate</a>
+                        <a class="btn btn-info bg-main-color" style="padding:8px 30px; margin-bottom:70px" target="_blank"
+                            href="https://raqsy.com/s/<?php if(isset($user_royal_link)){echo $user_royal_link; } ?>">Registrate</a>
 
                     </div>
                     <div class="col-sm-12 col-md-6">
@@ -95,14 +95,18 @@
                             alt="imagen de la app">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-3"><a href="" class="btn btn-info btn-block bg-main-color"
+                <div class="row" style="margin-top:40px">
+                    <div class="col-sm-12 col-md-3"><a href="https://raqsy.com/s/<?php if(isset($user_royal_link)){echo $user_royal_link; } ?>" 
+                            class="btn btn-info btn-block bg-main-color"
+                            target="_blank"
                             style="line-height: 1.5; margin-right:10px; margin-bottom:20px;">Registrate en RoyalQ</a>
                     </div>
-                    <div class="col-sm-12 col-md-3"><a href="" class="btn btn-info btn-block bg-main-color"
+                    <div class="col-sm-12 col-md-3"><a href="https://accounts.binance.me/es/register?ref=<?php if(isset($user_binance_link)){echo $user_binance_link; } ?>" 
+                            class="btn btn-info btn-block bg-main-color"
+                            target="_blank"
                             style="line-height: 1.5;margin-right:10px; margin-bottom:20px">Registrate en Binance</a>
                     </div>
-                    <div class="col-sm-12 col-md-3"><a href="" class="btn btn-info btn-block bg-main-color"
+                    <div class="col-sm-12 col-md-3"><a data-toggle="modal" data-target="#contact-modal" class="text-light btn btn-info btn-block bg-main-color"
                             style="line-height: 1.5;">Contacta un asesor</a></div>
                 </div>
             </div>
@@ -114,7 +118,7 @@
             <div class="col-sm-12 col-lg-8">
                 <h4 class="bg-second-color text-center">Características</h4>
                 <h1 class="text-light text-center">¿No sabes nada de trading pero quieres invertir?</h1>
-                <h4 class="text-light text-center" style="margin-bottom:30px">Tres razones para elegir Royal Q</h4>
+                <h4 class="text-light text-center" style="margin-bottom:30px">Tres razones para elegir<br>Royal Q</h4>
                 <div class="row" style="margin:70px 0px">
                     <div class="col-sm-12 col-md-4">
                         <div class="d-flex justify-content-center">
@@ -154,7 +158,7 @@
         </div>
     </div>
     <!-- How to start -->
-    <div class="container-fluid bg-third-color">
+    <div class="container-fluid bg-third-color" id="howToStart">
         <div class="row justify-content-center" style="padding-bottom:40px 0px">
             <div class="col-sm-12 col-lg-8">
                 <h4 class="bg-second-color text-center">Guía rápida</h4>
@@ -178,7 +182,7 @@
                                 La cuenta no tiene ningún costo.
 
                             </p>
-                            <a class="btn btn-info bg-main-color btn-block" href="">PASO 1 - Registrate</a>
+                            <a class="btn btn-info bg-main-color btn-block" href="https://raqsy.com/s/<?php if(isset($user_royal_link)){echo $user_royal_link; } ?>">PASO 1 - Registrate</a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4">
@@ -193,7 +197,10 @@
                                 y obtené un 10 porciento de descuento
                                 en tus operaciones. Sin costos adicionales.
                             </p>
-                            <a class="btn btn-info bg-main-color btn-block" href="">PASO 2 - Registrate</a>
+                            <a class="btn btn-info bg-main-color btn-block" 
+                                target="_blank"
+                                href="https://accounts.binance.me/es/register?ref=<?php if(isset($user_binance_link)){echo $user_binance_link; } ?>">PASO 2 - Registrate</a>
+
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4">
@@ -215,7 +222,7 @@
         </div>
     </div>
     <!-- Tutoriales -->
-    <div class="container-fluid bg-third-color">
+    <div class="container-fluid bg-third-color" id="tutoriales">
         <div class="row justify-content-center" style="padding-bottom:40px">
             <div class="col-sm-12 col-lg-8">
                 <h4 class="bg-second-color text-center">Tutoriales</h4>
@@ -522,8 +529,8 @@
                         <h1 class="text-light">¿Que estás esperando para unirte?</h1>
                     </div>
                     <div class="col-lg-4">
-                        <a href="" class="btn btn-info bg-main-color">Unete</a>
-                        <a href="" class="btn btn-info bg-main-color">Contacta un asesor</a>
+                        <a href="https://raqsy.com/s/<?php if(isset($user_royal_link)){echo $user_royal_link; } ?>" target="_blank" class="btn btn-info bg-main-color">Unete</a>
+                        <a class="text-light btn btn-info bg-main-color" data-toggle="modal" data-target="#contact-modal">Contacta un asesor</a>
                     </div>
                 </div>
             </div>
@@ -582,15 +589,15 @@
                         <p class="text-light"><i class="fas fa-phone-square-alt text-light"
                                 style="font-size: 30px;"></i>
                             Telefono: 658995720</p>
-                        <p class="text-light" style="text-decoration: underline;">Redes Sociales</p>
+                        <p class="text-light" style="margin-top:30px;">Redes Sociales</p>
                         <div class="d-flex">
-                            <a href=""><img src="./images/whatsapp.png" alt="Icono de whatsapp"
+                            <a href="https://api.whatsapp.com/send?phone=<?php if(isset($user_phone)){echo $user_phone;} ?>" target="_blank"><img src="./images/whatsapp.png" alt="Icono de whatsapp"
                                     style="width: 30px;margin-right:10px;"></a>
-                            <a href=""><img src="./images/telegram.png" alt="Icono de Telegram"
+                            <a href="<?php if(isset($user_telegram_link)){echo $user_telegram_link;} ?>" target="_blank"><img src="./images/telegram.png" alt="Icono de Telegram"
                                     style="width: 30px;margin-right:10px;"></a>
-                            <a href=""><img src="./images/facebook.png" alt="Icono de Telegram"
+                            <a href="<?php if(isset($user_facebook_link)){echo $user_facebook_link;} ?>" target="_blank"><img src="./images/facebook.png" alt="Icono de facebook"
                                     style="width: 30px;margin-right:10px;"></a>
-                            <a href=""><img src="./images/instagram.png" alt="Icono de Instagram"
+                            <a href="<?php if(isset($user_instagram_link)){echo $user_instagram_link;} ?>" target="_blank"><img src="./images/instagram.png" alt="Icono de Instagram"
                                     style="width: 30px;"></a>
                         </div>
                     </div>
@@ -631,6 +638,8 @@
             </div>
         </div>
     </div>
+    <!--  Floating-menu  -->
+    <?php include "./view-floating-menu.php" ?>
     <!--  Footer  -->
     <?php include "./common-footer.php" ?>
     <!-- Optional JavaScript -->

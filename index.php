@@ -16,7 +16,6 @@ switch ($action) {
         $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_STRING);
         $phone = filter_input(INPUT_POST, "phone", FILTER_SANITIZE_STRING);
         $message = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING);
-        $selected_email = filter_input(INPUT_POST, 'selected_email', FILTER_SANITIZE_STRING);
         $email_from = "Sitio Web";
         $email_subject = "Consulta de ".$name;
         $email_body = "Nombre: $name.\n\n";
@@ -26,18 +25,20 @@ switch ($action) {
         $to = "consultas@royalq-mundial.com";
         $headers = "De: $email_from \r\n";
         $headers.= "Responder a: $email \r\n";
-        mail($to, $email_subject, $email_body, $headers);
+        //mail($to, $email_subject, $email_body, $headers);
         include "./view-thankYou.php";
         break;
     case 'template':
         include "./view-template.php";
         break;
     default:
-        $user_royal_link = "";
-        $user_binance_link="";
-        $user_phone="";
-        $user_instagram_link="";
-        $user_facebook_link="";
+        $user_royal_link = "TKWWB";
+        $user_binance_link="https://accounts.binance.me/es/register?ref=RK8NAR90";
+        $user_phone="34658995720";
+        $user_instagram_link="https://www.instagram.com/btc_jero/";
+        $user_telegram_link="https://t.me/Jeronimo16";
+        $user_facebook_link="https://www.facebook.com/profile.php?id=100055793599170";
+        $user_facebook_group_link="https://www.facebook.com/groups/1030584354450614/?ref=share";
         // register new admin
 
         // $cl_username="gaby1234";
