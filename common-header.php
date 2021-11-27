@@ -15,7 +15,10 @@
             <a class="nav-link text-light" aria-current="page" href="./index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="./index.php#howToStart">Como empiezo</a>
+            <a href="./index.php#aboutMe" class="nav-link text-light">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="./index.php#howToStart">Como empezar</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-light" href="index.php#tutoriales">Tutoriales</a>
@@ -23,12 +26,13 @@
           <li class="nav-item">
             <a class="nav-link text-light"
               href="<?php if(isset($user_facebook_link)){echo $user_facebook_link;} ?>"
-              target="_blank">Seguinos en facebook</a>
+              target="_blank">Sígueme en Facebook</a>
           </li>
           <li class="nav-item">
             <!-- Button trigger modal -->
             <a class="nav-link text-light" data-toggle="modal" data-target="#contact-modal">Contacto</a>
           </li>
+          
         </ul>
       </div>
     </div>

@@ -5,7 +5,7 @@
                 <p class="text-light text-center" style="margin:0px">2021 Todos los derechos reservados</p>
                 <p class="text-light text-center" style="margin:0px"><img src="./images/btcjero.png" alt="Logo Btc jero"
                         style="width: 30px;">
-                    BTCJERO.COM</p>
+                    ROYALQ-BTCJERO.COM</p>
             </div>
         </div>
     </div>

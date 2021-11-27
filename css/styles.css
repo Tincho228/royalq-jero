@@ -15,6 +15,11 @@ html {
     background: linear-gradient(180deg, rgba(39, 135, 160, 1) 0%, rgba(54, 177, 210, 1) 80%, rgba(52, 179, 214, 1) 100%);
 }
 
+.bg-initial-color {
+    background: rgb(38,38,38);
+    background: linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(16,37,63,1) 50%, rgba(16,37,63,1) 100%);
+}
+
 .bg-middle-color {
     background: rgb(16, 37, 63);
     background: linear-gradient(180deg, rgba(16, 37, 63, 1) 0%, rgba(16, 37, 63, 1) 50%, rgba(23, 55, 94, 1) 100%);
@@ -45,6 +50,13 @@ html {
     background-position: center;
     background-repeat: none;
     background-size: cover;
+}
+
+.bg-image-about {
+  background-image: url("../images/aboutMe.png");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
 }
 
 .hamburguer-menu {

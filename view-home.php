@@ -34,10 +34,10 @@
             <div class="col-sm-12 col-lg-8">
                 <div class="row" style="margin:60px 0px">
                     <div class="col-sm-12 col-md-6 text-light">
-                        <h1 class="display-3 animate__animated animate__fadeInUp" style="line-height: 0.9;">Start</h1>
-                        <h1 class="display-3 animate__animated animate__fadeInUp" style="line-height: 0.9;">trading</h1>
-                        <h1 class="display-3 animate__animated animate__fadeInUp"
-                            style="line-height: 0.9; margin-bottom:10px;">Binance</h1>
+                        <h1 class="display-3 animate__animated animate__fadeInUp" style="line-height: 0.9;">RoyalQ</h1>
+                        <h1 class="display-3 animate__animated animate__fadeInUp" style="line-height: 0.9;">
+                            con<br>BTCJERO</h1>
+                        <img src="./images/btcjero.png" alt="Logo de btcjero">
                         <p class="text-light" style="margin-bottom:30px"> Sistemas automatico<br> de Ganancias</p>
                         <a class="btn btn-info bg-main-color" style="padding:8px 30px; margin-bottom:70px"
                             target="_blank"
@@ -45,19 +45,13 @@
 
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <div class="d-flex justify-content-center" style="margin-bottom: 30px;">
-                            <img src="./images/bitcoin.png" alt="image of bitcoin"
-                                style="width:70px; margin-right:10px">
-                            <img src="./images/etherium.png" alt="image of etherium"
-                                style="width:70px; margin-right:10px">
-                            <img src="./images/xrp.png" alt="image of xrp" style="width:70px;">
-                        </div>
-                        <p class="text-light text-center" style="font-size:20px;"> Desde la comodidad del hogar y sin
+                        <p class="text-light text-center" style="font-size:20px; margin:40px 0px"> Desde la comodidad
+                            del hogar y sin
                             toma de decisiones
-                            apresuradas, estarás participando en el comercio del trading con todas las cryto-monedas mas
+                            apresuradas, estarás participando en el comercio del trading con todas las criptomonedas mas
                             importantes.
                             Podrás tener control de todas tus inversiones y monitorearlas las 24hs, los siete dias de la
-                            semana. Comenzá ahora a disfrutar de la tecnologia y sin necesidad de conocimiento sobre el
+                            semana. Comienza ahora a disfrutar de la tecnologia y sin necesidad de conocimiento sobre el
                             mercado del trading.
                         </p>
                     </div>
@@ -65,6 +59,40 @@
             </div>
         </div>
 
+    </div>
+    <!-- About Me -->
+    <div class="container-fluid  bg-initial-color" id="aboutMe" >
+        <div class="row justify-content-center" style="padding:40px 0px">
+            <div class="col-sm-12 col-lg-8">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h4 class="bg-second-color">Sobre mí</h4>
+                        <h1 class="text-light" style="margin-bottom:30px">Soy Jerónimo Escamilla</h1>
+                        <p class="text-light">Soy Jerónimo Escamilla, español de nacimiento y llevo mas de tres años
+                            dedicándome a la inversión dentro del mundo de las criptomonedas, educándome financieramente
+                            y aprendiendo y estudiando diferentes maneras de moverme en este mundo tan innovador y
+                            apasionante. Durante estos años he probado diferentes inversiones y he sido estafado en
+                            muchas, y siempre es debido a lo mismo....nunca tenía el control de mi dinero. esto cambia
+                            el día que conozco RoyalQ. El hecho de no tener que dar tu dinero a nadie, es lo más
+                            importante que me a ocurrido en estos últimos meses. Gracias a RoyalQ, puedo elaborar mis
+                            propias estrategias de trading y compartirlas a mi equipo para que todos nos beneficiemos de
+                            las ventajas y los beneficios que nos ofrece este producto. Asesoro y doy soporte a todo mi
+                            equipo continuamente y de manera totalmente gratuita, para que puedan trabajar con RoyalQ
+                            con toda la información y formación posible. Estaré encantado de recibirte en mi equipo y
+                            poder ayudarte a conseguir tu propósito.
+                        </p>
+                        
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="d-flex align-items-end" style="height: 100%;">
+                        <img class="img-fluid" style="margin-bottom:10px" src="./images/aboutMe.png"
+                            alt="imagen de la app">
+                            </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </div>
     <!-- What is royalQ -->
     <div class="container-fluid bg-first-color">
@@ -84,7 +112,7 @@
                         <div class="d-flex">
                             <img src="./images/tilde.png" alt="imagen de check"
                                 style="width:30px; height:30px; margin-right:5px;">
-                            <p class="text-light">Los usuario solo deben activar el robot.
+                            <p class="text-light">Los usuarios solo deben activar el robot.
                             </p>
                         </div>
                         <div class="d-flex">
@@ -167,7 +195,7 @@
                         <div>
                             <h5 class="text-light text-center">Royal Q<br>no retiene tu inversion</h5>
                             <p class="text-center text-light">RoyalQ no retiene su capital, pero se financia mediante
-                                una suscripción anual de $ 100. Sus fondos permanecen en su intercambio (Binance o
+                                una suscripción anual de $ 120. Sus fondos permanecen en su intercambio (Binance o
                                 Huobi)
                                 que está conectado a través de API.
                                 RoyalQ no tiene acceso a sus fondos, que permanecen seguros en el intercambio.</p>
@@ -236,7 +264,8 @@
                                 Entrá en el link y seguí los pasos del tutorial.
 
                             </p>
-                            <a class="btn btn-info bg-main-color btn-block" href="">PASO 3 - Mirá el tutorial</a>
+                            <a class="btn btn-info bg-main-color btn-block" href="./index.php#api">PASO 3 - Mirá el
+                                tutorial</a>
                         </div>
                     </div>
                 </div>
@@ -295,7 +324,8 @@
                                             <p class="text-light">Este Documento tiene derechos de autor.
                                             </p>
                                         </div>
-                                        <a href="./docs/reg-royal.pdf" download="Como registrarse en royal Q.pdf" class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
+                                        <a href="./docs/reg-royal.pdf" download="Como registrarse en royal Q.pdf"
+                                            class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
                                         <button class="btn text-light" type="button" data-toggle="collapse"
                                             data-target="#collapseOne" aria-expanded="false"
                                             aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
@@ -312,9 +342,9 @@
                                 style="margin-bottom:5px; border-radius:5px; border:1px solid rgb(52, 171, 202)">
                                 <div class="card-header" id="headingOne" style="border-radius:5px;">
                                     <h2 class="mb-0">
-                                        <button class="btn btn-block  text-left text-light collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
-                                            aria-controls="collapseTwo">
+                                        <button id="api" class="btn btn-block  text-left text-light collapsed"
+                                            type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                            aria-expanded="true" aria-controls="collapseTwo">
                                             <div class="d-flex justify-content-between">
                                                 <img src="./images/pdf.png" alt="Imagen de pdf" style="width:50px">
                                                 <p class="text-light" style="margin:0px 10px">Como activar Royal Q</p>
@@ -340,7 +370,8 @@
                                             <p class="text-light">Este Documento tiene derechos de autor.
                                             </p>
                                         </div>
-                                        <a href="./docs/act-royal.pdf" download="Como activar Royal Q.pdf" class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
+                                        <a href="./docs/act-royal.pdf" download="Como activar Royal Q.pdf"
+                                            class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
                                         <button class="btn text-light" type="button" data-toggle="collapse"
                                             data-target="#collapseTwo" aria-expanded="false"
                                             aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
@@ -388,7 +419,8 @@
                                             <p class="text-light">Este Documento tiene derechos de autor.
                                             </p>
                                         </div>
-                                        <a href="./docs/api.pdf" download="Como vincular Api Key.pdf" class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
+                                        <a href="./docs/api.pdf" download="Como vincular Api Key.pdf"
+                                            class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
                                         <button class="btn text-light" type="button" data-toggle="collapse"
                                             data-target="#collapseOne" aria-expanded="false"
                                             aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
@@ -441,7 +473,8 @@
                                             <p class="text-light">Este Documento tiene derechos de autor.
                                             </p>
                                         </div>
-                                        <a href="./docs/edition.pdf" download="Como activar opcion Personal Edition.pdf" class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
+                                        <a href="./docs/edition.pdf" download="Como activar opcion Personal Edition.pdf"
+                                            class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
                                         <button class="btn text-light" type="button" data-toggle="collapse"
                                             data-target="#collapseOne" aria-expanded="false"
                                             aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
@@ -493,7 +526,8 @@
                                             <p class="text-light">Este Documento tiene derechos de autor.
                                             </p>
                                         </div>
-                                        <a href="./docs/home.pdf" download="Pestaña home.pdf" class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
+                                        <a href="./docs/home.pdf" download="Pestaña home.pdf"
+                                            class="btn btn-info text-light bg-main-color btn-block">Descargar PDF</a>
                                         <button class="btn text-light" type="button" data-toggle="collapse"
                                             data-target="#collapseOne" aria-expanded="false"
                                             aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
