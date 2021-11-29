@@ -34,8 +34,8 @@
             <div class="col-sm-12 col-lg-8">
                 <div class="row" style="margin:60px 0px">
                     <div class="col-sm-12 col-md-6 text-light">
-                        <h1 class="display-3 animate__animated animate__fadeInUp" style="line-height: 0.9; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">RoyalQ</h1>
-                        <h1 class="display-3 animate__animated animate__fadeInUp" style="line-height: 0.9; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"">
+                        <h1 class="display-4 animate__animated animate__fadeInUp  font-title" style="line-height: 0.9; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">RoyalQ</h1>
+                        <h1 class="display-4 animate__animated animate__fadeInUp  font-title" style="line-height: 0.9; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"">
                             con<br>BTCJERO</h1>
                         <img src="./images/btcjero.png" alt="Logo de btcjero" style="width:100px">
                         <p class="text-light" style="margin-bottom:30px"> Sistemas automatico<br> de Ganancias</p>
@@ -45,7 +45,7 @@
 
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <p class="text-light text-center" style="font-size:20px; margin:40px 0px"> Desde la comodidad
+                        <p class="text-light text-center font-title" style="font-size:20px; margin:40px 0px"> Desde la comodidad
                             del hogar y sin
                             toma de decisiones
                             apresuradas, estarás participando en el comercio del trading con todas las criptomonedas mas

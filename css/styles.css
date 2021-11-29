@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
     --first-color: rgb(16, 37, 63);
     --second-color: rgb(52, 171, 202);
     --third-color: rgb(23, 55, 94);
     --fourth-color: rgb(38,38,38);
-    --font-title: 'Poppins', sans-serif;
-    --font-body: 'Roboto', sans-serif;
+    --font-title: 'Roboto', sans-serif;
 }
 html {
     scroll-behavior: smooth;
 }
 
+.font-title {
+  font-family:var(--font-title) !important;
+}
 .bg-main-color {
     background: rgb(39, 135, 160);
     background: linear-gradient(180deg, rgba(39, 135, 160, 1) 0%, rgba(54, 177, 210, 1) 80%, rgba(52, 179, 214, 1) 100%);
