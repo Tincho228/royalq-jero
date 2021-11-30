@@ -619,7 +619,7 @@
                         <div class="d-flex">
                             <img src="./images/tilde.png" alt="imagen de check"
                                 style="width:30px; height:30px; margin-right:5px;">
-                            <p class="text-light">Tutoriale en línea.
+                            <p class="text-light">Tutoriales en línea.
                             </p>
                         </div>
                         <div class="d-flex">
