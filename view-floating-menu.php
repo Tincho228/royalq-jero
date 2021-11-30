@@ -24,7 +24,7 @@
     <a href="<?php if(isset($user_telegram_link)){echo $user_telegram_link;} ?>" 
       target="_blank"
       class="menu-item fab fa-telegram"></a>
-    <a href="<?php if(isset($user_facebook_link)){echo $user_facebook_link;} ?>" 
+    <a href="<?php if(isset($_SESSION['$user_facebook_link'])){echo $_SESSION['$user_facebook_link'];} ?>" 
       target="_blank"
       class="menu-item fab fa-facebook"></a>
     <a href="<?php if(isset($user_instagram_link)){echo $user_instagram_link;} ?>" 

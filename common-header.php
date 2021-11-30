@@ -21,11 +21,11 @@
             <a class="nav-link text-light" href="./index.php#howToStart">Como empezar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="index.php#tutoriales">Tutoriales</a>
+            <a class="nav-link text-light" href="./index.php#tutoriales">Tutoriales</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-light"
-              href="<?php if(isset($user_facebook_link)){echo $user_facebook_link;} ?>"
+              href="<?php if(isset($_SESSION['$user_facebook_link'])){echo $_SESSION['$user_facebook_link'];} ?>"
               target="_blank">Sígueme en Facebook</a>
           </li>
           <li class="nav-item">

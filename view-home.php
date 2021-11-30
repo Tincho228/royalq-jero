@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="./css/styles.css">
 
     <!-- Favicon Code -->
-
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -635,10 +638,8 @@
                             style="background-color:rgb(52, 171, 202);width:150px;margin-right:auto; margin-left:0px;margin-bottom:35px;">
 
                         <div class="d-flex">
-                            <img src="./images/icono-españa.png" alt="imagen de check"
-                                style="width:30px; height:30px; margin-right:5px;">
-                            <p class="text-light">España, ES.
-                            </p>
+                            <img src="./images/icon-spain.png" alt="Image of spain" style="width:30px; height:30px; margin-right:5px">
+                            <p class="text-light">España, ES. </p>
                         </div>
                         <p class="text-light"><i class="fas fa-phone-square-alt text-light"
                                 style="font-size: 30px;"></i>
@@ -651,7 +652,7 @@
                             <a href="<?php if(isset($user_telegram_link)){echo $user_telegram_link;} ?>"
                                 target="_blank"><img src="./images/telegram.png" alt="Icono de Telegram"
                                     style="width: 30px;margin-right:10px;"></a>
-                            <a href="<?php if(isset($user_facebook_link)){echo $user_facebook_link;} ?>"
+                            <a href="<?php if(isset($_SESSION['$user_facebook_link'])){echo $_SESSION['$user_facebook_link'];} ?>"
                                 target="_blank"><img src="./images/facebook.png" alt="Icono de facebook"
                                     style="width: 30px;margin-right:10px;"></a>
                             <a href="<?php if(isset($user_instagram_link)){echo $user_instagram_link;} ?>"

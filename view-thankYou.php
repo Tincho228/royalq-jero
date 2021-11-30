@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="./css/styles.css">
 
     <!-- Favicon Code -->
-
+    <!-- Favicon Code -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -28,16 +32,16 @@
 <body>
     <div class="container-fluid bg-last-color">
         <!-- Nav bar -->
-        <?php include "./common-header.php" ?>
+        <?php // include "./common-header.php" ?>
         <!-- Main title -->
         <div class="row justify-content-center">
             <div class="col-sm-12 col-lg-8">
-                <div class="row" style="margin:13vh 0px">
+                <div class="row" style="margin:13vh 0px; margin-top:20vh">
                     <div class="col-sm-12 col-md-6 text-light">
                         <h5 class="bg-second-color">Respuesta</h5>
                         <h1 class="text-light display-4">Gracias por tu mensaje</h1>
                         <p>Por otras consultas, no olvides visitar<br>nuestros tutoriales</p>
-                        <a class="btn btn-outline-secondary text-light" href="./index.php#tutoriales" style="margin-bottom:30px">Ir a tutoriales</a>
+                        <!-- <a class="btn btn-outline-secondary text-light" href="./index.php#tutoriales" style="margin-bottom:30px">Ir a tutoriales</a> -->
 
                     </div>
                     <div class="col-sm-12 col-md-6">
@@ -69,8 +73,7 @@
     </div>
    
     
-    <!--  Floating-menu  -->
-    <?php include "./view-floating-menu.php" ?>
+    
     <!--  Footer  -->
     <?php include "./common-footer.php" ?>
     <!-- Optional JavaScript -->

@@ -22,23 +22,21 @@ switch ($action) {
         $email_body .="Telefono: $phone \r\n".
         "Email: $email.\n".
         "Mensaje: $message.\n"; 
-        $to = "consultas@royalq-mundial.com";
+        $to = "consulta@royalq-btcjero.com";
         $headers = "De: $email_from \r\n";
         $headers.= "Responder a: $email \r\n";
-        //mail($to, $email_subject, $email_body, $headers);
+        mail($to, $email_subject, $email_body, $headers);
         include "./view-thankYou.php";
         break;
-    case 'template':
-        include "./view-template.php";
-        break;
+    
     default:
         $user_royal_link = "TKWWB";
         $user_binance_link="https://accounts.binance.me/es/register?ref=RK8NAR90";
         $user_phone="34658995720";
         $user_instagram_link="https://www.instagram.com/btc_jero/";
         $user_telegram_link="https://t.me/Jeronimo16";
-        $user_facebook_link="https://www.facebook.com/profile.php?id=100055793599170";
-        $user_facebook_group_link="https://www.facebook.com/groups/1030584354450614/?ref=share";
+        $_SESSION['$user_facebook_link']="https://www.facebook.com/profile.php?id=100055793599170";
+        $_SESSION['$user_facebook_group_link']="https://www.facebook.com/groups/1030584354450614/?ref=share";
         // register new admin
 
         // $cl_username="gaby1234";
