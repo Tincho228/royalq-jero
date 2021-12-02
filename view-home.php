@@ -6,7 +6,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="description" content="Bienvenidos a RoyalQ-btcJero, soy Jeronimo Escamilla y te voy a enseñar estrategias de RoyalQ, 
+    asesoria y soporte gratuito sobre RoyalQ. Si no sabes nada sobre trading y quieres invertir en forma segura, este es el lugar.">
+    <!-- Google Search Meta tags -->
+    <meta name="google-site-verification" content="dW8j6Y5V5La6IaCAYulx_mOOeOPAy_AMlkL7jakQCfo" />
     <!-- Main CSS -->
     <link rel="stylesheet" href="./css/styles.css">
 
@@ -16,6 +19,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
+    
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -44,6 +49,7 @@
                         <p class="text-light" style="margin-bottom:30px"> Sistemas automatico<br> de Ganancias</p>
                         <a class="btn btn-info bg-main-color" style="padding:8px 30px; margin-bottom:70px"
                             target="_blank"
+                            rel="noreferrer"
                             href="https://raqsy.com/s/<?php if(isset($user_royal_link)){echo $user_royal_link; } ?>">Registrate</a>
 
                     </div>
@@ -103,7 +109,7 @@
             <div class="col-sm-12 col-lg-8">
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
-                        <h4 class="bg-second-color">Que es Royal Q</h4>
+                        <h3 class="bg-second-color">Que es Royal Q</h3>
                         <h1 class="text-light">Robot automatico</h1>
                         <h4 class="text-light" style="margin-bottom:30px">Un robot que trabaja con multiples estrategias
                             con la mas avanzada tecnologia.</h4>
@@ -142,16 +148,18 @@
                     <div class="col-sm-12 col-md-3"><a
                             href="https://raqsy.com/s/<?php if(isset($user_royal_link)){echo $user_royal_link; } ?>"
                             class="btn btn-info btn-block bg-main-color" target="_blank"
+                            rel="noopener"
                             style="line-height: 1.5; margin-right:10px; margin-bottom:20px;">Registrate en RoyalQ</a>
                     </div>
                     <div class="col-sm-12 col-md-3"><a
                             href="https://accounts.binance.me/es/register?ref=<?php if(isset($user_binance_link)){echo $user_binance_link; } ?>"
                             class="btn btn-info btn-block bg-main-color" target="_blank"
+                            rel="noopener"
                             style="line-height: 1.5;margin-right:10px; margin-bottom:20px">Registrate en Binance</a>
                     </div>
-                    <div class="col-sm-12 col-md-3"><a data-toggle="modal" data-target="#contact-modal"
+                    <div class="col-sm-12 col-md-3"><button data-toggle="modal" data-target="#contact-modal"
                             class="text-light btn btn-info btn-block bg-main-color" style="line-height: 1.5;">Contacta
-                            un asesor</a></div>
+                            un asesor</button></div>
                 </div>
             </div>
         </div>
@@ -160,7 +168,7 @@
     <div class="container-fluid bg-middle-color">
         <div class="row justify-content-center" style="padding-top:40px">
             <div class="col-sm-12 col-lg-8">
-                <h4 class="bg-second-color text-center">Características</h4>
+                <h3 class="bg-second-color text-center">Características</h3>
                 <h1 class="text-light text-center">¿No sabes nada de trading pero quieres invertir?</h1>
                 <h4 class="text-light text-center" style="margin-bottom:30px">Tres razones para elegir<br>Royal Q</h4>
                 <div class="row" style="margin:70px 0px">
@@ -212,7 +220,7 @@
     <div class="container-fluid bg-third-color" id="howToStart">
         <div class="row justify-content-center" style="padding-bottom:40px 0px">
             <div class="col-sm-12 col-lg-8">
-                <h4 class="bg-second-color text-center">Guía rápida</h4>
+                <h3 class="bg-second-color text-center">Guía rápida</h3>
                 <h1 class="text-light text-center">¿Cómo empiezo?</h1>
                 <h4 class="text-light text-center" style="margin-bottom:30px">Sólo son tres pasos.</h4>
                 <p class="text-center text-light">Recuerda que tienes a disposición todos los tutoriales que
@@ -251,6 +259,7 @@
                                 en tus operaciones. Sin costos adicionales.
                             </p>
                             <a class="btn btn-info bg-main-color btn-block" target="_blank"
+                                rel="noopener"
                                 href="https://accounts.binance.me/es/register?ref=<?php if(isset($user_binance_link)){echo $user_binance_link; } ?>">PASO
                                 2 - Registrate</a>
 
@@ -279,7 +288,7 @@
     <div class="container-fluid bg-third-color" id="tutoriales">
         <div class="row justify-content-center" style="padding-bottom:40px">
             <div class="col-sm-12 col-lg-8">
-                <h4 class="bg-second-color text-center">Tutoriales</h4>
+                <h3 class="bg-second-color text-center">Tutoriales</h3>
                 <h1 class="text-light text-center">Nuestros Tutoriales</h1>
                 <h4 class="text-light text-center" style="margin-bottom:30px">Todo sobre Royal Q, Binance y el Plan de
                     Compensación.</h4>
@@ -583,9 +592,10 @@
                     </div>
                     <div class="col-lg-4">
                         <a href="https://raqsy.com/s/<?php if(isset($user_royal_link)){echo $user_royal_link; } ?>"
+                            rel="noopener"
                             target="_blank" class="btn btn-info bg-main-color">Unete</a>
-                        <a class="text-light btn btn-info bg-main-color" data-toggle="modal"
-                            data-target="#contact-modal">Contacta un asesor</a>
+                        <button class="text-light btn btn-info bg-main-color" data-toggle="modal"
+                            data-target="#contact-modal">Contacta un asesor</button>
                     </div>
                 </div>
             </div>
@@ -647,15 +657,19 @@
                         <p class="text-light" style="margin-top:30px;">Redes Sociales</p>
                         <div class="d-flex">
                             <a href="https://api.whatsapp.com/send?phone=<?php if(isset($user_phone)){echo $user_phone;} ?>"
+                                rel="noopener"
                                 target="_blank"><img src="./images/whatsapp.png" alt="Icono de whatsapp"
                                     style="width: 30px;margin-right:10px;"></a>
                             <a href="<?php if(isset($user_telegram_link)){echo $user_telegram_link;} ?>"
+                                rel="noopener"
                                 target="_blank"><img src="./images/telegram.png" alt="Icono de Telegram"
                                     style="width: 30px;margin-right:10px;"></a>
                             <a href="<?php if(isset($_SESSION['$user_facebook_link'])){echo $_SESSION['$user_facebook_link'];} ?>"
+                                rel="noopener"
                                 target="_blank"><img src="./images/facebook.png" alt="Icono de facebook"
                                     style="width: 30px;margin-right:10px;"></a>
                             <a href="<?php if(isset($user_instagram_link)){echo $user_instagram_link;} ?>"
+                                rel="noopener"
                                 target="_blank"><img src="./images/instagram.png" alt="Icono de Instagram"
                                     style="width: 30px;"></a>
                         </div>

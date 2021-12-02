@@ -25,12 +25,13 @@
           </li>
           <li class="nav-item">
             <a class="nav-link text-light"
+              rel="noopener"
               href="<?php if(isset($_SESSION['$user_facebook_link'])){echo $_SESSION['$user_facebook_link'];} ?>"
               target="_blank">Sígueme en Facebook</a>
           </li>
           <li class="nav-item">
             <!-- Button trigger modal -->
-            <a class="nav-link text-light" data-toggle="modal" data-target="#contact-modal">Contacto</a>
+            <button class="nav-link text-light btn" data-toggle="modal" data-target="#contact-modal">Contacto</button>
           </li>
           
         </ul>
